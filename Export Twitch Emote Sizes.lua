@@ -41,5 +41,6 @@ function export112()
 	end)
 	app.undo()
 end
-
+app.command.FlattenLayers()
 export()
+app.undo()
